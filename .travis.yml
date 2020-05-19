@@ -20,5 +20,6 @@ before_install:
     # Chromedriver
     - wget https://chromedriver.storage.googleapis.com/2.34/chromedriver_linux64.zip
     - unzip chromedriver_linux64.zip -d $HOME/miniconda/bin
+install: 
 services:
     - docker
